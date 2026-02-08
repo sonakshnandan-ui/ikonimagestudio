@@ -13,6 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      {/* <BrowserRouter basename="/ikonimagestudio/"> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />

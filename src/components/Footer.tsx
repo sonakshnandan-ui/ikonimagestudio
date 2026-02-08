@@ -92,11 +92,20 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © {currentYear} IKON Image Studio. All rights reserved.
           </p>
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <Camera className="h-4 w-4 text-primary" />
-            <span>Capturing moments, creating memories</span>
+
+          <div className="flex flex-col md:flex-row items-center gap-2 text-sm text-muted-foreground">
+            <span>Developed by Sonaksh Nandan</span>
+            <span>|</span>
+            <a href="https://sonakshnandan.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
+              sonakshnandan.com
+            </a>
+            <span>|</span>
+            <a href="tel:+917601020093" className="hover:text-primary">
+              +91 76010 20093
+            </a>
           </div>
         </div>
+
       </div>
     </footer>
   );
